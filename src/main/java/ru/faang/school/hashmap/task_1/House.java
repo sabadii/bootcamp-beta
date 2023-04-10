@@ -16,6 +16,6 @@ public class House {
     }
     @Override
     public String toString() {
-        return getName() + " - " + getSigil();
+        return " Название дома: " + getName() + ", " + "Герб - " + getSigil() + ".";
     }
 }

@@ -7,10 +7,10 @@ public class Main {
     private static final Map<String, House> vasteras = new HashMap<>();
     public static void main(String[] args) {
 
-        House stark = new House(" Старк ", " Лютоволк");
-        House lannister = new House(" Ланнистер ", " Чёрный коронованный олень на золотом поле");
-        House barateon = new House(" Баратеон ", " Лев рыкающий");
-        House targarien = new House(" Таргариен ", " Змей Горыныч");
+        House stark = new House(" Старк", " Лютоволк");
+        House lannister = new House(" Ланнистер", " Чёрный коронованный олень на золотом поле");
+        House barateon = new House(" Баратеон", " Лев рыкающий");
+        House targarien = new House(" Таргариен", " Змей Горыныч");
 
         add(stark.getName(), stark);
         add(lannister.getName(), lannister);
